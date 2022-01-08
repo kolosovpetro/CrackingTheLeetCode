@@ -27,8 +27,8 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
       - name: Clone repository and add document
         run: |
-          git clone https://${{ secrets.GH_ACCESS_TOKEN }}@github.com/MangoInstantMessenger/MangoInstantMessenger.github.io.git ~/MangoInstantMessenger.github.io
-          cp out/main.pdf  ~/MangoInstantMessenger.github.io/main.pdf
+          git clone https://${{ secrets.GH_ACCESS_TOKEN }}@github.com/kolosovpetro/kolosovpetro.github.io.git ~/kolosovpetro.github.io
+          cp out/CrackingTheLeetCode.pdf  ~/kolosovpetro.github.io/pdf/CrackingTheLeetCode.pdf
       - name: Commit document changes if any
         run: |
           cd ~/MangoInstantMessenger.github.io
