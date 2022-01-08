@@ -18,7 +18,7 @@
 - Activate Intellij IDEA Ultimate
 - Install TeXiFy IDEA plugin: https://plugins.jetbrains.com/plugin/9473-texify-idea
 - Fork this repository
-- Clone your fork repository locally: `git clone https://github.com/kolosovpetro/BachelorsThesis.git`
+- Clone your fork repository locally: `git clone https://github.com/kolosovpetro/CrackingTheLeetCode.git`
 - Fetch your local fork and update it locally:
     - `git checkout develop`
     - `git pull`
@@ -33,7 +33,7 @@ In order to contribute proceed as follows:
 
 - Watch and decide which issue to solve, each issue has an ID `LEETCODE-ID` to be used in branch naming
 - Fork this repository
-- Clone this repository using `git clone https://github.com/${{ username }}/MangoMessengerBachelorThesis.git`
+- Clone this repository using `git clone https://github.com/${{ username }}/CrackingTheLeetCode.git`
 - If repository is cloned already then pull last changes from `develop` using
   - `git checkout develop`
   - `git pull`
