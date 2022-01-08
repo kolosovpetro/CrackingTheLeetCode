@@ -8,3 +8,35 @@
 [![Build PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build.yml/badge.svg)
 [![Build and Deploy PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy.yml/badge.svg)
 ![contributors count](https://img.shields.io/github/contributors/kolosovpetro/CrackingTheLeetCode)
+
+## Build and run
+
+- Install MikTeX: https://miktex.org/download
+- Update MikTeX
+- Install SumatraPDF viewer: https://www.sumatrapdfreader.org/download-free-pdf-viewer
+- Install Intellij IDEA Ultimate: https://www.jetbrains.com/idea/download/#section=windows
+- Activate Intellij IDEA Ultimate
+- Install TeXiFy IDEA plugin: https://plugins.jetbrains.com/plugin/9473-texify-idea
+- Fork this repository
+- Clone your fork repository locally: `git clone https://github.com/kolosovpetro/BachelorsThesis.git`
+- Fetch your local fork and update it locally:
+    - `git checkout develop`
+    - `git pull`
+- Open diploma-document.iml in IDEA
+- Configure Inverse Search in IDEA for SumatraPDF: `Tools -> LaTeX -> Configure Inverse Search`
+- Add build configurations for `LaTeX` and `bibTeX`
+- Compile document using `Shift + F10`
+
+## Contribution
+
+In order to contribute proceed as follows:
+
+- Watch and decide which issue to solve, each issue has an ID `LEETCODE-ID` to be used in branch naming
+- Fork this repository
+- Clone this repository using `git clone https://github.com/${{ username }}/MangoMessengerBachelorThesis.git`
+- If repository is cloned already then pull last changes from `develop` using
+  - `git checkout develop`
+  - `git pull`
+- Create new branch based on `develop` with name according to `LEETCODE-ID` of an issue
+- Solve the issue
+- Create pull request to `develop` from your fork
