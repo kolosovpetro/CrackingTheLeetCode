@@ -32,6 +32,7 @@
 In order to contribute proceed as follows:
 
 - Watch and decide which issue to solve, each issue has an ID `LEETCODE-ID` to be used in branch naming
+- Fetch tasks category at: https://seanprashad.com/leetcode-patterns/
 - Fork this repository
 - Clone this repository using `git clone https://github.com/${{ username }}/CrackingTheLeetCode.git`
 - If repository is cloned already then pull last changes from `develop` using
