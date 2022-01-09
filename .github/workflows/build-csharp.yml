@@ -20,10 +20,10 @@ jobs:
           dotnet-version: 6.0.x
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./code/c_sharp/CrackingTheLeetCode.CSharp
 
       - name: Build
-        run: dotnet build --no-restore /p:ContinuousIntegrationBuild=true
+        run: dotnet build ./code/c_sharp/CrackingTheLeetCode.CSharp --no-restore /p:ContinuousIntegrationBuild=true
 
       - name: Run unit tests
-        run: dotnet test code/csharp/MangoAPI.Tests/CrackingTheLeetCode.Tests.csproj --no-build --verbosity normal
+        run: dotnet test ./code/c_sharp/CrackingTheLeetCode.CSharp/CrackingTheLeetCode.Tests/CrackingTheLeetCode.Tests.csproj --no-build --verbosity normal
