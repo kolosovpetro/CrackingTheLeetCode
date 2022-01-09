@@ -5,8 +5,9 @@
 </p>
 
 
-[![Build PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build.yml/badge.svg)
-[![Build and Deploy PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy.yml/badge.svg)
+[![Build PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-pdf.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build.yml/badge.svg)
+[![Build and Deploy PDF](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy-pdf.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-and-deploy.yml/badge.svg)
+[![Build Csharp Solution](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-csharp.yml/badge.svg)](https://github.com/kolosovpetro/CrackingTheLeetCode/actions/workflows/build-csharp.yml/badge.svg)
 ![contributors count](https://img.shields.io/github/contributors/kolosovpetro/CrackingTheLeetCode)
 
 ## Build and run
