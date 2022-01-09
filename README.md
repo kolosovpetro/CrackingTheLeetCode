@@ -22,7 +22,7 @@
 - Fetch your local fork and update it locally:
     - `git checkout develop`
     - `git pull`
-- Open diploma-document.iml in IDEA
+- Open project folder with Intellij IDEA
 - Configure Inverse Search in IDEA for SumatraPDF: `Tools -> LaTeX -> Configure Inverse Search`
 - Add build configurations for `LaTeX` and `bibTeX`
 - Compile document using `Shift + F10`
