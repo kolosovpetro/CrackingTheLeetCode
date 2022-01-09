@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackingTheLeetCode", "CrackingTheLeetCode\CrackingTheLeetCode.csproj", "{1DE04D67-B0D0-492F-87D5-C4E7CC8662E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackingTheLeetCode.Tests", "CrackingTheLeetCode.Tests\CrackingTheLeetCode.Tests.csproj", "{6B25D722-6248-4379-9192-4B6FB3083EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackingTheLeetCode.UI", "CrackingTheLeetCode.UI\CrackingTheLeetCode.UI.csproj", "{070A1A30-E087-4B16-B7E4-947266FF9E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE04D67-B0D0-492F-87D5-C4E7CC8662E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE04D67-B0D0-492F-87D5-C4E7CC8662E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE04D67-B0D0-492F-87D5-C4E7CC8662E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE04D67-B0D0-492F-87D5-C4E7CC8662E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B25D722-6248-4379-9192-4B6FB3083EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B25D722-6248-4379-9192-4B6FB3083EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B25D722-6248-4379-9192-4B6FB3083EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B25D722-6248-4379-9192-4B6FB3083EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070A1A30-E087-4B16-B7E4-947266FF9E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070A1A30-E087-4B16-B7E4-947266FF9E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070A1A30-E087-4B16-B7E4-947266FF9E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070A1A30-E087-4B16-B7E4-947266FF9E68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
