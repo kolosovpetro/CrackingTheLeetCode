@@ -1,0 +1,28 @@
+name: Build Csharp Solution
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Restore dependencies
+        run: dotnet restore ./code/c_sharp/CrackingTheLeetCode.CSharp
+
+      - name: Build
+        run: dotnet build ./code/c_sharp/CrackingTheLeetCode.CSharp --no-restore /p:ContinuousIntegrationBuild=true
+
+      - name: Run unit tests
+        run: dotnet test ./code/c_sharp/CrackingTheLeetCode.CSharp/CrackingTheLeetCode.Tests/CrackingTheLeetCode.Tests.csproj --no-build --verbosity normal
