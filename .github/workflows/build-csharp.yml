@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - develop
-      - LEETCODE-12
   pull_request:
     branches:
       - develop
